@@ -32,6 +32,9 @@ API ROUTES
 2. RUN python3 -m venv env
 3. RUN source env/bin/activate  [for windows(./env/Scripts/activate.bat),for linux('./env/bin/activate)]
 4. RUN pip install -r requirements.txt
-5. RUN python manage.py runserver
+5. RUN python3 manage.py makemigrations crud
+6. RUN python3 manage.py migrate    
+7. RUN python manage.py runserver
+
 
 
